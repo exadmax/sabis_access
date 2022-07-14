@@ -9,5 +9,8 @@ public class CheckPoint {
 	private String startTime;
 	private Boolean hasLimitTime;
 	private String limitTime;
+	private Boolean dynamicGPS;
+	private Boolean terminalCheckin;
+	private 
 	
 }

@@ -11,8 +11,8 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://localhost:3306/access
-    username: sabis
-    password: sabis
+    username: access
+    password: gate
 thymeleaf:
   enabled: true
   cache: false
