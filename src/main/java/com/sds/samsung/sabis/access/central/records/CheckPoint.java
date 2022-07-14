@@ -11,6 +11,7 @@ public class CheckPoint {
 	private String limitTime;
 	private Boolean dynamicGPS;
 	private Boolean terminalCheckin;
-	private 
+	private Boolean canJumpThisPoint;
+	
 	
 }
