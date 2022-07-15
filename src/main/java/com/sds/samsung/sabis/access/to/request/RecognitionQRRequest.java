@@ -1,6 +1,6 @@
 package com.sds.samsung.sabis.access.to.request;
 
-public class RecogitnionQRRequest extends RecognitionRequest{
+public class RecognitionQRRequest extends RecognitionRequest{
 	private String qrCode;
 
 	/**

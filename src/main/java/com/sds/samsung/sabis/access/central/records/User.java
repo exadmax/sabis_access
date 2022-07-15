@@ -10,4 +10,6 @@ public class User {
 	private Boolean approver;
 	private Profile profile;
 	
+	private QRUser qrCode;
+	
 }
