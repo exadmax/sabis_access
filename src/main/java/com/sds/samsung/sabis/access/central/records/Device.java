@@ -28,8 +28,13 @@ public class Device {
 	@ManyToOne 
 	@JoinColumn(name = "DVG_ID")
 	private DeviceGroup deviceGroup;
+	
+	@Column(name = "DVC_ISTERMINAL")
 	private Boolean isTerminal;
+	
+	@Column(name = "DVC_TERMINAL")
 	private Terminal terminal;
+	
 	public Long getId() {
 		return id;
 	}
@@ -52,6 +57,22 @@ public class Device {
 
 	public void setDeviceGroup(DeviceGroup deviceGroup) {
 		this.deviceGroup = deviceGroup;
+	}
+
+	public Boolean getIsTerminal() {
+		return isTerminal;
+	}
+
+	public void setIsTerminal(Boolean isTerminal) {
+		this.isTerminal = isTerminal;
+	}
+
+	public Terminal getTerminal() {
+		return terminal;
+	}
+
+	public void setTerminal(Terminal terminal) {
+		this.terminal = terminal;
 	}
 	
 }

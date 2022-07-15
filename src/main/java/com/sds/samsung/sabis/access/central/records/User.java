@@ -41,6 +41,10 @@ public class User {
 	@JoinColumn(name = "PRF_ID")
 	private Profile profile;
 
+	@ManyToOne 
+	@JoinColumn(name = "QRU_ID")
+	private QRUser qrCode;
+	
 	public Long getId() {
 		return id;
 	}
@@ -96,7 +100,12 @@ public class User {
 	public void setProfile(Profile profile) {
 		this.profile = profile;
 	}
-	
-	private QRUser qrCode;
-	
+
+	public QRUser getQrCode() {
+		return qrCode;
+	}
+
+	public void setQrCode(QRUser qrCode) {
+		this.qrCode = qrCode;
+	}
 }
